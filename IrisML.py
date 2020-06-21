@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 20 18:47:05 2020
-
-@author: Shivani
-"""
 # Load libraries
 from pandas import read_csv
 from pandas.plotting import scatter_matrix
@@ -22,7 +16,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 # Load dataset
-url = "D:/MEng/SUMMER/iris.csv"
+url = "iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
 
